@@ -1,5 +1,5 @@
 # jabbring.github.io
 
-Welcome to Jaap H. Abbring's Github page
+Jaap Abbring's Github Pages
 
-Home: http://jaap.abbring.org
+index.html automatically forwards to http://jaap.abbring.org
