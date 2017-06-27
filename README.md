@@ -2,4 +2,4 @@
 
 Jaap Abbring's Github Pages
 
-* 'index.html' automatically forwards to http://jaap.abbring.org
+* `index.html` automatically forwards to http://jaap.abbring.org
