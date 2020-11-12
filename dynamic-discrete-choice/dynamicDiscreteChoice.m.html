@@ -10,7 +10,7 @@ MathJax.Hub.Config({ tex2jax: {displayMath:[['(MathJaxStart)','(MathJaxStop)']]}
 MathJax.Hub.Config({ tex2jax: {processEnvironments: false}});
 MathJax.Hub.Config({ tex2jax: {ignoreClass: "workingCodeLine|displaycode|code"}});
 MathJax.Hub.Config({ tex2jax: {processClass: "inlineComment"}});
-</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<title>dynamicDiscreteChoice.m</title>
 <!--codePrint-->
 <style type="text/css">
@@ -3267,19 +3267,26 @@ The function <span class="code">estimatePi</span> computes a frequency estimate 
 <tr class="shaded"><td class="fileName">estimatePi.m</td><td class="lineNumber">7</td><td class="workingCodeLine">function piHat = estimatePi(iX,nSuppX)
 </td></tr>
 </table><p>
-	It requires the following input arguments: 
+	It requires the following input arguments:
+ 
 	</p>
 <dl class="dictionary">
-<dt></dt><dd><span class="listitemcontent">{<span class="code">iX</span>} a <span class="inlineMath">(StartMathJax)T\times N(StopMathJax)</span> matrix with indices of observed states <span class="inlineMath">(StartMathJax)x_{tn}(StopMathJax)</span> in <span class="inlineMath">(StartMathJax){\cal X}(StopMathJax)</span> (for example, if <span class="inlineMath">(StartMathJax)x_{11}=x^3(StopMathJax)</span>, then the first element of <span class="code">iX</span> is 3, not <span class="inlineMath">(StartMathJax)x^3(StopMathJax)</span>);  
-	</span></dd><dt></dt><dd><span class="listitemcontent">{<span class="code">nSuppX</span>} the scalar number <span class="inlineMath">(StartMathJax)K(StopMathJax)</span> of support points of the profit state <span class="inlineMath">(StartMathJax)X_t(StopMathJax)</span> (the number of elements of <span class="inlineMath">(StartMathJax)\cal{X}(StopMathJax)</span>) 
+<dt></dt><dd><span class="listitemcontent">{<span class="code">iX</span>} a <span class="inlineMath">(StartMathJax)T\times N(StopMathJax)</span> matrix with indices of observed states <span class="inlineMath">(StartMathJax)x_{tn}(StopMathJax)</span> in <span class="inlineMath">(StartMathJax){\cal X}(StopMathJax)</span> (for example, if <span class="inlineMath">(StartMathJax)x_{11}=x^3(StopMathJax)</span>, then the first element of <span class="code">iX</span> is 3, not <span class="inlineMath">(StartMathJax)x^3(StopMathJax)</span>); 
+ 
+	</span></dd><dt></dt><dd><span class="listitemcontent">{<span class="code">nSuppX</span>} the scalar number <span class="inlineMath">(StartMathJax)K(StopMathJax)</span> of support points of the profit state <span class="inlineMath">(StartMathJax)X_t(StopMathJax)</span> (the number of elements of <span class="inlineMath">(StartMathJax)\cal{X}(StopMathJax)</span>)
+ 
 	</span></dd></dl><p>
- 
-	and returns 
+
+ 
+	and returns
+ 
 	</p>
 <dl class="dictionary">
-<dt></dt><dd><span class="listitemcontent">{<span class="code">piHat</span>} an estimate <span class="inlineMath">(StartMathJax)\hat\Pi(StopMathJax)</span> of the <span class="inlineMath">(StartMathJax)K\times K(StopMathJax)</span> Markov transition matrix <span class="inlineMath">(StartMathJax)\Pi(StopMathJax)</span> for <span class="inlineMath">(StartMathJax)\{X_t\}(StopMathJax)</span>, with typical element <span class="inlineMath">(StartMathJax)\hat\Pi_{ij}(StopMathJax)</span> equal to the sample frequency of transitions to state <span class="inlineMath">(StartMathJax)j(StopMathJax)</span> among all transitions from state <span class="inlineMath">(StartMathJax)i(StopMathJax)</span>. 
+<dt></dt><dd><span class="listitemcontent">{<span class="code">piHat</span>} an estimate <span class="inlineMath">(StartMathJax)\hat\Pi(StopMathJax)</span> of the <span class="inlineMath">(StartMathJax)K\times K(StopMathJax)</span> Markov transition matrix <span class="inlineMath">(StartMathJax)\Pi(StopMathJax)</span> for <span class="inlineMath">(StartMathJax)\{X_t\}(StopMathJax)</span>, with typical element <span class="inlineMath">(StartMathJax)\hat\Pi_{ij}(StopMathJax)</span> equal to the sample frequency of transitions to state <span class="inlineMath">(StartMathJax)j(StopMathJax)</span> among all transitions from state <span class="inlineMath">(StartMathJax)i(StopMathJax)</span>.
+ 
 	</span></dd></dl><p>
-	 
+	
+ 
 The function <span class="code">estimatePi</span> first stores the number of time periods <span class="inlineMath">(StartMathJax)T(StopMathJax)</span> in a scalar <span class="code">nPeriods</span>.</p>
 <p></p><table class="workingCode">
 <tr class="shaded"><td class="fileName">estimatePi.m</td><td class="lineNumber">20</td><td class="workingCodeLine">nPeriods=size(iX,1);
@@ -3298,7 +3305,8 @@ Then, for each pair <span class="inlineMath">(StartMathJax)(i,j)\in\{1,\ldots,K\
 <tr class="shaded"><td class="fileName">estimatePi.m</td><td class="lineNumber">28</td><td class="workingCodeLine">end
 </td></tr>
 </table><p>
-Note that <span class="code">estimatePi</span> requires a positive number of transition observations from each state. More generally, the frequency estimator that it implements only performs well with samples that are large relative to the state space. With relatively small samples, the frequency estimator should be replaced by one that smoothes across support points. 
+Note that <span class="code">estimatePi</span> requires a positive number of transition observations from each state. More generally, the frequency estimator that it implements only performs well with samples that are large relative to the state space. With relatively small samples, the frequency estimator should be replaced by one that smoothes across support points.
+ 
 	</p>
 </div><div class="subsection"><h4 class="subsection" id="likelihood"><span class="sectionNumber">4</span><span class="subsectionNumber">2</span><span class="sectionName">Second Stage: Choices</span></h4>
 <p> 
