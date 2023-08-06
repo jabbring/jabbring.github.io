@@ -1,5 +1,5 @@
 # jabbring.github.io
 
-Jaap Abbring's Github Pages
+Jaap Abbring's academic homepage
 
-* `index.html` automatically forwards to http://jaap.abbring.org
+[https://jaap.abbring.org](https://jaap.abbring.org)
