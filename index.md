@@ -17,5 +17,5 @@ I am teaching economics at Tilburg University. I taught before at the University
 One of my hobbies is to pretend I am 25 years old and [make noise](https://blauwedinsdag.com).
 
 <p><span style="color:red">
-Note: My old website broke down; this is a placeholder for a new one I am building.    
+Note: I recently broke my old website beyond repair; this is a placeholder for a new one I am building.    
 </span></p>
