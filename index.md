@@ -8,7 +8,7 @@ layout: home
   <img src="img/IMG_2045.jpg" height="300" />
 </p>
 
-I am an economist who specializes in the econometrics in dynamic choices and games and the computational and empirical analysis of industrial organization, insurance markets, and labor markets. At Tilburg University, I engage with faculty and students with similar interests in the [Structural Econometrics Group](https://www.tilburgeconomics.nl/seg).
+I am an economist who specializes in the econometrics of dynamic choices and games and the computational and empirical analysis of industrial organization, insurance markets, and labor markets. At Tilburg University, I engage with faculty and students with similar interests in the [Structural Econometrics Group](https://www.tilburgeconomics.nl/seg).
 
 I am a Professor of Econometrics. I have been at Tilburg University since 2008. Before that, I worked at VU Amsterdam, the University of Chicago, and University College London. I am a fellow of CEPR, the IAAE, and the Econometric Society.
 
