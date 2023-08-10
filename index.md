@@ -10,7 +10,7 @@ layout: home
 
 I am an economist who specializes in the econometrics of dynamic choices and games and the computational and empirical analysis of industrial organization, insurance markets, and labor markets. At Tilburg University, I engage with faculty and students with similar interests in the [Structural Econometrics Group](https://www.tilburgeconomics.nl/seg).
 
-I am a Professor of Econometrics. I have been at Tilburg University since 2008. Before that, I worked at VU Amsterdam, the University of Chicago, and University College London. I am a fellow of CEPR, the IAAE, and the Econometric Society.
+I am a Professor of Econometrics. I have been at Tilburg University since 2008. Before that, I worked at VU Amsterdam, the University of Chicago, and University College London. I am a Research Fellow of CEPR and a Fellow of the IAAE and the Econometric Society. I am a Member of the Royal Holland Society of Sciences and Humanities.
 
 I have [published](https://scholar.google.com/citations?user=T3nRoZ8AAAAJ&hl=nl&inst=3385539784813856853&oi=ao) in _Econometrica_, _JRSSB_, _Annual Review of Economics_, the _Handbook of Econometrics_, _JEEA_, _JBES_, _Economic Journal_, and other outlets. My current research includes work on dynamic oligopoly, structural duration models, time preferences, student tracking, pharmaceutical R&D, and firm growth and survival.  
 
