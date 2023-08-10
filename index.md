@@ -12,7 +12,7 @@ I am an economist who specializes in the econometrics of dynamic choices and gam
 
 I am a Professor of Econometrics. I have been at Tilburg University since 2008. Before that, I worked at VU Amsterdam, the University of Chicago, and University College London. I am a fellow of CEPR, the IAAE, and the Econometric Society.
 
-I have [published](https://scholar.google.com/citations?user=T3nRoZ8AAAAJ&hl=nl&inst=3385539784813856853&oi=ao) in _Econometrica_, _JRSSB_, _Annual Review of Economics_, the _Handbook of Econometrics_, _JEEA_, _Economic Journal_, and other outlets. My current research includes work on dynamic oligopoly, structural duration models, time preferences, student tracking, pharmaceutical R&D, and firm growth and survival.  
+I have [published](https://scholar.google.com/citations?user=T3nRoZ8AAAAJ&hl=nl&inst=3385539784813856853&oi=ao) in _Econometrica_, _JRSSB_, _Annual Review of Economics_, the _Handbook of Econometrics_, _JEEA_, _JBES_, _Economic Journal_, and other outlets. My current research includes work on dynamic oligopoly, structural duration models, time preferences, student tracking, pharmaceutical R&D, and firm growth and survival.  
 
 I am currently teaching courses in Dynamic Economic Models (MSc) and Empirical Industrial Organization (RM/PhD) and advising five PhD students. I also regularly supervise MSc and BSc thesis research. 
 
