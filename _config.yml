@@ -28,6 +28,7 @@ url: "https://jaap.abbring.org" # the base hostname & protocol for your site, e.
 twitter_username: JaapAbbring
 github_username:  jabbring
 linkedin_username: abbring
+# orcid: 0000-0002-3405-9487
 
 # Build settings
 theme: minima
