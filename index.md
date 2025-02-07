@@ -23,5 +23,5 @@ I am the Managing Editor of [_The Econometrics Journal_](https://res.org.uk/jour
 I live in Amsterdam with my wife Barbara. We have a daughter, Hanne, and son, Bram. I have been in a [band](https://blauwedinsdag.com) since 1991. After some persistent nudging, Spotify recently recognized us as "artists".
 
 <p><span style="color:red">
-Note: I recently broke my old website; this is a placeholder for a new one I am building.    
+Note: A while back, I broke my old website; this is a placeholder for a new one I am building.    
 </span></p>
